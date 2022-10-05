@@ -1,0 +1,231 @@
+/* Hoja de estilos CSS3, para el archivo index.html */
+
+body{
+    margin: 0;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;          /* tipo de fuente */
+    background-color: #f2f2f2;
+    font-size: 1em;                                     /* tamaño de la fuente */
+    overflow-x: hidden;    
+}
+/* Header */
+.cabecera{
+
+    padding: 1.5em;
+    background: linear-gradient(122.3deg, rgb(171, 111, 204) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+    border-radius: 8px;
+    text-align: center;
+    height: 12em;
+    width: 1180px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+
+}
+
+.titulo-h{
+    color: black;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nombre-a{
+    background-color: rgba(0, 0, 0, 0.134);
+    border-radius: 8px;
+    width: 300px;
+    padding: 0.2em;
+    /* Centrar */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Clicker Script', cursive;
+    font-size: 24px;
+
+}
+
+
+/* Contenedor en columnas -  4 columnas */
+.cont-indice{
+    height: 800px;
+    overflow: hidden;
+    padding: 0 1% 0 1%;
+    background-color: rgb(255, 255, 255);
+    width: 1180px;    
+    margin-top: 1em;
+    border-radius: 8px;
+    position: relative;     /* Centrar contenedor */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2em;
+    margin-bottom: 1em;
+    
+}
+
+/* Estilos para el apartado dentro del contenedor "cont-2" */
+/* Titulo del capitulo */
+#titulo-cap{
+    font-size: 2em;
+}
+
+.capitulos{
+    margin: 5em;
+    
+}
+
+.lista-ejemplos{
+    position: relative;
+    margin-left: 2em;
+
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+.lista-ejercicios{
+    position: relative;
+    margin-left: 2em;
+
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:right; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+.lista-ejemplos-1{
+    position: relative;
+    margin-left: 2em;
+
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+.lista-ejercicios-1{
+    position: relative;
+    margin-left: 2em;
+
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:right; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+ul{
+    list-style: square;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+ul a:hover{
+    font-size: 24px;
+    
+}
+
+
+/* Estilos para el apartado dentro del contenedor "cont-2" */
+/* Titulo del capitulo */
+#titulo-cap{
+    font-size: 2em;
+}
+
+/* Capitulo 4 */
+
+.capitulo-4{
+    position: relative;
+    margin: 2em;
+    width: 480px;
+    
+}
+
+.lista-ejemplos{
+    position: relative;
+    margin-left: 2em;
+
+    width: 40%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+.lista-ejercicios{
+    position: relative;
+    margin-left: 2em;
+    right: 5px;
+    width: 40%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:right; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+ul{
+    list-style: square;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+ul a:hover{
+    font-size: 24px;
+    
+}
+
+/* ******************************************************************************************************************************************** */
+
+/* Capitulo 5 */
+
+.capitulo-5{
+    position: relative;
+    margin: 2em;
+    width: 55%;
+    float: right;
+    bottom: 494px;
+    left: 110px;
+
+}
+
+.lista-ejemplos{
+    position: relative;
+    margin-left: 2em;
+
+    width: 40%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+.lista-ejercicios-1{
+    position: relative;
+    margin-left: 2em;
+    right: 155px;
+    width: 30%;  /* Este será el ancho que tendrá tu columna */
+    
+    float:right; /* Aquí determinas de lado quieres quede esta "columna" */
+
+}
+
+ul{
+    list-style: square;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+ul a:hover{
+    font-size: 24px;
+    
+    
+}
+
+

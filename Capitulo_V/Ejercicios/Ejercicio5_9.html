@@ -1,0 +1,93 @@
+<!-- Montero Gómez Evelin -->
+<!-- Programación Web -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 5.9</title>
+        <link rel="stylesheet" href="styles/styles-ejer.css">
+        <!-- Fuente -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+        <style type="text/css">
+            img{
+                position: relative;
+                -webkit-animation: movingimage linear 10s 1s  infinite;
+                -moz-animation: movingimage linear 10s 1s  infinite;
+                animation: movingimage linear 10s 1s infinite;
+                padding: 2em;
+                position: relative;     /* Centrar contenedor */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+
+            @-webkit-keyframes movingimage{
+                0% { opacity: 1; left: 200px; top: 0px; }
+                25% { opacity: 1; left: 0px; top: 0px; }
+                50% { opacity: 1; left: 0px; top: 200px; }
+                75% { opacity: 1; left: 200px; top: 200px; }
+                100% { opacity: 1; left: 200px; top: 0px; }
+            }
+            
+            @-moz-keyframes movingimage{
+                0% { opacity: 1; left: 200px; top: 0px; }
+                25% { opacity: 1; left: 0px; top: 0px; }
+                50% { opacity: 1; left: 0px; top: 200px; }
+                75% { opacity: 1; left: 200px; top: 200px; }
+                100% { opacity: 1; left: 200px; top: 0px; }
+            }
+            
+            @keyframes movingimage{
+                0% { opacity: 1; left: 200px; top: 0px; }
+                25% { opacity: 1; left: 0px; top: 0px; }
+                50% { opacity: 1; left: 0px; top: 200px; }
+                75% { opacity: 1; left: 200px; top: 200px; }
+                100% { opacity: 1; left: 200px; top: 0px; }
+            }
+
+            .cont-3{
+                height: 100%;
+                overflow: auto;
+                padding: 0 1% 0 1%;
+                background-color: lightgray;
+                width: 952px;
+                height: 500px;    
+                margin-top: 1em;
+                border-radius: 8px;
+                position: relative;     /* Centrar contenedor */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                line-height: 2em;   
+            }
+        </style>
+    </head>
+    <a href="../../index.html">
+        <label>
+            <input type="submit" name="regresar" id="menu" class="boton" value="Regresar">
+        </label>
+    </a>
+    <body>
+        <!-- Banner -->
+        <header class="banner">
+            <h1 id="titulo">Cap&iacute;tulo V: Ejercicios</h1>
+            <p id="parrafo">
+                <strong>
+                    < Ejercicio 5.9 />
+                </strong>
+            </p>
+            <h2 id="nombre">Montero G&oacute;mez Evelin</h2>
+            <!-- <img class="image" src="Images/luciernagas.png" alt="Imagen de luciernagas"> -->
+        </header>
+
+        <!-- Contenedor -->
+        <article class="contenedor">
+            <div class="cont-3">
+                <img class="img" src="images/imagen_fondo.png" alt="Imagen desplazada" width="200px">
+            </div>
+        </article>
+    </body>
+</html>

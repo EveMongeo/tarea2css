@@ -1,0 +1,106 @@
+<!-- Montero Gómez Evelin -->
+<!-- Programación Web -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 5.10</title>
+        <link rel="stylesheet" href="styles/styles-ejer.css">
+        <!-- Fuente -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+
+        <style type="text/css">
+            .skew .textbox
+            {
+                margin-left: 75px;
+                background: lightyellow;
+                color: black;
+                height: 100px;
+                width: 200px;
+                padding: 25px 0;
+                text-align: center;
+                font-size: 250%;
+                border: 3px solid white;
+                border-radius: 15px;
+                -webkit-animation: skew 3s infinite alternate;
+                -moz-animation: skew 3s infinite alternate;
+                animation: skew 3s infinite alternate;
+                position: relative;
+                top: 1em;
+            
+                /* Centrar contenedor */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                top: 2em;
+            }
+            @-webkit-keyframes skew{
+                from  {-webkit-transform: skewY(-30deg);}
+                25%   {-webkit-transform: skewX(30deg);}
+                50%   {-webkit-transform: skewY(30);}
+                75%   {-webkit-transform: skewX(-30deg);}
+                to    {-webkit-transform: skewX(0);}
+            } 
+            @-moz-keyframes skew{
+                from  {-webkit-transform: skewY(-30deg);}
+                25%   {-webkit-transform: skewX(30deg);}
+                50%   {-webkit-transform: skewY(30deg);}
+                75%   {-webkit-transform: skewX(-30deg);}
+                to    {-webkit-transform: skewX(0);}
+            }
+            
+            @-keyframes skew{
+                from  {-webkit-transform: skewY(-30deg);}
+                25%   {-webkit-transform: skewX(30deg);}
+                50%   {-webkit-transform: skewY(30deg);}
+                75%   {-webkit-transform: skewX(-30deg);}
+                to    {-webkit-transform: skewX(0);}
+            } 
+            .cont-3{
+                height: 300px ;
+                overflow: auto;
+                padding: 0 1% 0 1%;
+                background-color: lightgray;
+                width: 952px;    
+                margin-top: 1em;
+                border-radius: 8px;
+                position: relative;     /* Centrar contenedor */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                line-height: 2em;
+            }
+        </style>
+    </head>
+    <a href="../../index.html">
+        <label>
+            <input type="submit" name="regresar" id="menu" class="boton" value="Regresar">
+        </label>
+    </a>
+    <body>
+        <!-- Banner -->
+        <header class="banner">
+            <h1 id="titulo">Cap&iacute;tulo V: Ejercicios</h1>
+            <p id="parrafo">
+                <strong>
+                    < Ejercicio 5.10 />
+                </strong>
+            </p>
+            <h2 id="nombre">Montero G&oacute;mez Evelin</h2>
+            <img class="image" src="Images/luciernagas.png" alt="Imagen de luciernagas">
+        </header>
+
+        <!-- Contenedor -->
+        <article class="contenedor">
+            <div class="cont-3">
+                <div class="box skew">
+                    <div class="textbox">
+                        Inclinar texto
+                    </div>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>

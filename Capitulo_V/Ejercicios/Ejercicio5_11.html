@@ -1,0 +1,83 @@
+<!-- Montero Gómez Evelin -->
+<!-- Programación Web -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 5.11</title>
+        <link rel="stylesheet" href="styles/styles-ejer.css">
+        <!-- Fuente -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+        <style type="text/css">
+            #portada{
+                position: relative;
+                margin: 0 auto;
+                top: 1em;
+                left: 12em;
+            }
+            #portada img{
+                position: absolute;
+                left: 0;
+                -webkit-transition: opacity 3s linear;
+            }
+            #portada img.top:hover{  opacity: 0;  }
+            
+            .cont-3{
+                display: flex;
+                height: 500px;
+                overflow: hidden;
+                padding: 0 1% 0 1%;
+                background-color: lightgray;
+                width: 952px;    
+                margin-top: 1em;
+                border-radius: 8px;
+                position: relative;     /* Centrar contenedor */
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                line-height: 2em;
+                text-align: center;
+            }
+        
+            .titulo-imagen{
+                   position: relative;               
+            }
+
+        </style>
+    </head>
+    <a href="../../index.html">
+        <label>
+            <input type="submit" name="regresar" id="menu" class="boton" value="Regresar">
+        </label>
+    </a>
+    <body>
+        <!-- Banner -->
+        <header class="banner">
+            <h1 id="titulo">Cap&iacute;tulo V: Ejercicios</h1>
+            <p id="parrafo">
+                <strong>
+                    < Ejercicio 5.11 />
+                </strong>
+            </p>
+            <h2 id="nombre">Montero G&oacute;mez Evelin</h2>
+            <img class="image" src="Images/luciernagas.png" alt="Imagen de luciernagas">
+        </header>
+
+        <!-- Contenedor -->
+        <article class="contenedor">
+            <div class="cont-3">
+                <h1 class="titulo-imagen">
+                    Logo de Windows
+                </h1>
+    
+                <div id="portada">
+                    <img src="images/windows_logo.jpg" alt="Windows logo" class="bottom" width="550px">
+                    <img src="images/Windows8.jpeg" alt="Windows 8 logo" class="top" width="550px">
+                </div>
+            </div>
+        </article>
+        
+    </body>
+</html>

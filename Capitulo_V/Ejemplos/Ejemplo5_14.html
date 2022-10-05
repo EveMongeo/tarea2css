@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- Fig. 5.14: fusiónimagenes.html -->
+<!-- Fusionar una imagen en otra mediante CSS3. -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fusi&oacute;n de im&aacute;genes</title>
+        <style type="text/css">
+            #portada
+            {
+                position: relative;
+                margin: 0 auto;
+            }
+            #portada img
+            {
+                position: absolute;
+                left: 0;
+                -webkit-transition: opacity 4s ease-in-out;
+                transition: opacity 4s ease-in-out;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #portada img.top:hover
+            {opacity: 0;}
+        </style>
+    </head>
+    <a href="../../index.html">
+        <label>
+            <input type="submit" name="regresar" id="menu" class="boton" value="Regresar">
+        </label>
+    </a>
+    <body>
+        <div id="portada">
+            <img class="bottom" src="Images/planeta_tierra.png" width="2020" height="2020" alt="Margaritas">
+            <img class="top" src="Images/planeta_tierra2.png" width="2000" height="2000" alt="Flor morada">
+        </div>
+    </body>
+</html>
