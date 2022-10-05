@@ -1,0 +1,77 @@
+/* Hoja de diseño de CSS3 */
+/* Montero Gómez Evelin */
+
+.banner{
+    padding: 1.5em;
+    background: black;
+    border-radius: 8px;
+    text-align: center;
+    height: 10em;
+    width: 1180px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    margin: 0;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#nombre{
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.3em;
+    color: white;
+}
+#parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+.contenedor{
+    line-height: 2em;
+    position: relative;
+    width: 1200px;
+    height: auto;
+    padding: 1em;
+    border-radius: 8px;
+    /* Centrar */
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    background: lightgray;
+}
+
+.image{
+    width: 100px;
+    position: relative;
+    float: right;
+    bottom: 160px;
+    right: 6em;
+    display: block;
+}
+
+
+.mi-h1{
+    padding: 0.5ems;
+    border-style: dashed;   /* estilo de bordo solicitado */
+}   
+
+.mi-h2{
+    padding: 0.5ems;
+    border-style: dashed;   /* estilo de bordoo solicitado */
+    margin: 0.5em;
+}

@@ -1,0 +1,118 @@
+/* Hoja de diseño de CSS3 */
+/* Montero Gómez Evelin */
+
+.banner{
+    padding: 1.5em;
+    background: black;
+    border-radius: 8px;
+    text-align: center;
+    height: 10em;
+    width: 1180px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    margin: 0;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#nombre{
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.3em;
+    color: white;
+}
+#parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+.contenedor{
+    line-height: 2em;
+    position: relative;
+    width: 1200px;
+    height: auto;
+    padding: 1em;
+    border-radius: 8px;
+    /* Centrar */
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    background: lightgray;
+}
+
+.image{
+    width: 100px;
+    position: relative;
+    float: right;
+    bottom: 160px;
+    right: 6em;
+    display: block;
+}
+
+/* Ejercicio */
+.cont-principal{
+    height: 100%;
+    overflow: auto;
+    padding: .5em;
+    background-color: lightgray;
+    width: 90%;    
+    margin-top: .5em;
+    border-radius: 8px;
+    position: relative;     /* Centrar contenedor */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+/* Ejercicio */
+nav{
+    border: 2px solid rgb(185, 78, 88);
+    background-color: rgb(235, 129, 144);
+    color: #fff;
+    text-align: center;
+    width: 10em;
+    border-radius: 4px;
+    padding: 10px;
+
+    position: relative;     /* Centrar contenedor */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Diseño del elemento ul anidado en nax */
+nav ul{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Efecto para nav con :hover */
+nav:hover ul{ display: block;}
+
+/* Diseño para el elemento li dentro de ul que se encuentra dentro de nav */
+nav ul li {
+    border-top: 2px solid rgb(185, 78, 88);
+    background-color: #fff;
+    width: 10em;
+    color: black;
+    transition: 0.3s;
+}
+/* Efecto en el diseño para el elemento li dentro de ul que se encuentra dentro de nav */
+nav ul li:hover{background-color: rgb(185, 78, 88);}
+
+a{text-decoration: none;}
